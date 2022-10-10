@@ -1,0 +1,33 @@
+version: "3.1"
+
+stories:
+
+- story: start greet
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- story: human condition
+  steps:
+  - intent: condition
+  - action: utter_condition
+
+- story: about ques_rest
+  steps:
+  - intent: ques_rest
+  - action: utter_ques_rest
+
+- story: about place
+  steps:
+  - intent: place
+  - action: utter_place
+
+- story: about restuarent_time
+  steps:
+  - intent: restuarent_time
+  - action: utter_restuarent_time
+
+- story: end thank
+  steps:
+  - intent: thank
+  - action: utter_thank

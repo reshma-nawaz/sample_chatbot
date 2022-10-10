@@ -1,0 +1,44 @@
+version: "3.0.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+- intent: condition
+  examples: |
+    - How are you ?
+    - How do you do?
+    - What about you?
+
+- intent: ques_rest
+  examples: |
+    - What are the restaurents available ?
+    - Give names of some restuarents ?
+    - Name some restaurent names?
+    - What are the famous restaurents available here?
+
+- intent: place
+  examples: |
+    - I am from Bhimavaram .
+    - Currently, living in Bhimavaram .
+    - Bhimavaram.
+    - I am living in Bhimavaram.
+  
+- intent: restuarent_time
+  examples: |
+    - are you open?
+    - At what time restaurent will be opened?
+    - When it will be opened?
+    - What are the timings ?
+    - Timings??
+    - Timings of the restaurant?
+
+- intent: thank
+  examples: |
+    - Thanks !
+    - Thanks for the information !
+    - Thank You !
+    - Thank you so much !

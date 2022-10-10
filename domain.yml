@@ -1,0 +1,32 @@
+version: "3.1"
+
+intents:
+  - greet
+  - condition
+  - ques_rest
+  - place
+  - restuarent_time
+  - thank
+
+responses:
+  utter_greet:
+  - text: "Hii !"
+
+  utter_condition:
+  - text: "No worries !"
+
+  utter_ques_rest:
+  - text: "Which place do you belong to ??"
+
+  utter_place:
+  - text: "The famous restaurent in Bhimavaram is Chandrika.."
+
+  utter_restuarent_time:
+  - text: "Restaurent will be opened from mrng 10 to nght 9. "
+
+  utter_thank:
+  - text: "Welcome."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
